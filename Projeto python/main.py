@@ -1,5 +1,5 @@
-from analises.analisesIMC import calcularIMC
-from calculadoras.calculoIMC import analisarIMC
+from analises.analisesIMC import analisarIMC
+from calculadoras.calculoIMC import calcularIMC
 
 print("Calculadora de IMC:")
 nomePessoa = str(input("Escreva o seu nome e tecle ENTER:"))
