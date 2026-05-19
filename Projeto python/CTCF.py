@@ -2,7 +2,7 @@ from calculadoras.calculoCTCF import calcularCTCF
 
 print("Calculadora de celsius para fahrenheit:")
 
-celsius = float(input("Digite a temperatura em celsius:"))
+celsius = float(input("Digite a temperatura em celsius e tecle ENTER:"))
 fahrenheit = calcularCTCF(celsius)
 
-print(f"{celsius}°C = {fahrenheit: .2f}°F")
+print(f"{celsius}°C = {fahrenheit:.2f}°F")
